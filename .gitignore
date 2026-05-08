@@ -1,0 +1,41 @@
+# Prerequisites
+*.pyc
+__pycache__/
+
+# Environments
+.env
+env/
+venv/
+*.virtualenv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Saved Models 
+models/*.pth
+*.pt
+
+# Generated Data 
+data/*.npy
+data/*.h5
+data/*.csv
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS and temporary files
+*.swp
+*.swo
+*~
+.tmp/
+Thumbs.db
+
+# Output image
+*.png

@@ -1,0 +1,1 @@
+This directory is intended for local storage of the graphical results from evaluate.py and data_exploration.ipynb, as seen in the root README.
