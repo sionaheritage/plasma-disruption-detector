@@ -37,5 +37,5 @@ build/
 .tmp/
 Thumbs.db
 
-# Output image
-*.png
+# Output image (when large, will push README examples)
+# *.png

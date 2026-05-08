@@ -10,9 +10,11 @@ This project initially spawned from a fusion hackathon idea. As such, the focus 
 Since raw experimental fusion data is often proprietary, this repository utilizes a custom **physics-informed synthetic data generator**. It simulates the complex temporal dynamics of a reactor, allowing the LSTM to learn the non-linear coupling of magnetic fields and pressure gradients without relying on terabytes of raw sensor data. Requires pyyaml>=6.0 to run.
 
 ## Results visual
-![Feature exploration from data_exploration.ipynb](media/feature_exploration.png)
-
+Approximate results from the project.
+Results generated graphically of estimated risk from evaluate.py:
 ![Results generated graphically from evaluate.py](media/disruption_analysis.png)
+Feature exploration of the synthetic plasma data from data_exploration.ipynb:
+![Feature exploration from data_exploration.ipynb](media/feature_exploration.png)
 
 ## Core Architecture
 1. **Data Engineering (`data_generator.py`)**: Simulates 5 critical Tokamak diagnostics using random walks and exponential drift:
